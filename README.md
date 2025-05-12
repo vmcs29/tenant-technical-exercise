@@ -24,6 +24,9 @@ Install dependencies:
 Install Playwright: 
 `npm init playwright@latest`
 
+Checking execution report: 
+`npx playwright show-report`
+
 ## 🧪 Running Tests
 - To run all test (this instruction will run all tests within test folder)
 
