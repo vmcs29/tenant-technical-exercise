@@ -1,0 +1,20 @@
+{
+  "name": "tenant-technical-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:all": "npx playwright test login.spec.ts",
+    "test:chrome": "npx playwright test login.spec.ts --browser=chromium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.17"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  }
+}
